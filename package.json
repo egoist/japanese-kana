@@ -1,6 +1,6 @@
 {
   "name": "japanese-kana",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Node interface to get Japanese kana programmatically.",
   "license": "MIT",
   "repository": "egoist/japanese-kana",

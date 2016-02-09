@@ -22,8 +22,11 @@ kana('ra', 'katakana')
 kana('ta', 'hiragana')
 //=> たちつてと
 
-kana.data
+kana.data()
 //=> all kana, see data.json
+
+kana.data(true)
+//=> all data, but merged hiragana and katakana
 
 kana.lines
 //=> ['a', 'ka', 'sa', 'ta', 'na', 'ha', 'ma', 'ya', 'ra', 'wa', 'n']

@@ -23,6 +23,17 @@ module.exports = function (line, type) {
 	return data[type][index]
 }
 
-module.exports.data = data
+/**
+ * All kana data
+ *
+ * @param {Boolean} flatten - if merge hiragana and katakana
+ * @returns {Object|Array}
+ */
+module.exports.data = function (flatten) {
+	if (flatten) {
+		return data.hiragana.concat(data.katakana)
+	}
+	return data
+}
 
 module.exports.lines = lines
