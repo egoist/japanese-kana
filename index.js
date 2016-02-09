@@ -7,8 +7,8 @@ var lines = ['a', 'ka', 'sa', 'ta', 'na', 'ha', 'ma', 'ya', 'ra', 'wa', 'n']
 /**
  * Get line by kana type
  *
- * @param {Char} line - a~n
- * @param {String} type - hiragana or katakana
+ * @param {String} line - a~n
+ * @param {String} type - hiragana|katakana|all
  * @returns {String}
  */
 module.exports = function (line, type) {
