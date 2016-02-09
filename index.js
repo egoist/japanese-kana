@@ -16,9 +16,7 @@ module.exports = function (line, type) {
 	if (index === -1) {
 		throw new Error('Out of range')
 	}
-	if (typeof type !== 'string') {
-		throw new TypeError('Expecte type to be hiragana or katakana or all')
-	}
+	type = type || 'all'
 	if (type === 'all') {
 		return data.hiragana[index] + data.katakana[index]
 	}

@@ -9,10 +9,6 @@ test('main', t => {
 
 test('error', t => {
 	t.throws(function () {
-		kana('a')
-	}, TypeError)
-
-	t.throws(function () {
 		kana('wow')
 	}, Error)
 })
