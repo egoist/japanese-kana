@@ -59,7 +59,7 @@ kana.line('ka')
 [ 'こ', 'コ' ] ]
 ```
 
-Returns **[Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)** Romaji
+Returns **[Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)&lt;[Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)&lt;Hiragana, Katakana>>** Kana
 
 ### getRomajiByKana
 

@@ -5,7 +5,7 @@ export { gujuon }
 /**
  * Get line by first Romaji of each line
  * @param {string} name - The first Romaji of each line
- * @return {Array} Romaji
+ * @return {Array<Array<Hiragana, Katakana>>} Kana
  * @example
  * kana.line('ka')
  * //=> return
