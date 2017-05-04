@@ -18,12 +18,21 @@ Currently it only support gojūon, it's nice if you can help with adding dakuon 
 const kana = require('japanese-kana')
 
 kana.line('ka')
-//=> yield:
+//=> return
 [ [ 'か', 'カ' ],
   [ 'き', 'キ' ],
   [ 'く', 'ク' ],
   [ 'け', 'ケ' ],
   [ 'こ', 'コ' ] ]
+
+kana.getRomajiByKana('キ')
+//=> return `ki`
+
+kana.getKanaByRomaji('mo')
+//=> return ["も", "モ"]
+
+kana.getHiraganaByRomaji('fu')
+//=> return 'ふ'
 ```
 
 ## API
