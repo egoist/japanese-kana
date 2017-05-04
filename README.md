@@ -8,6 +8,8 @@
 yarn add japanese-kana
 ```
 
+CDN: https://unpkg.com/japanese-kana/dist/
+
 ## Usage
 
 Currently it only support gojūon, it's nice if you can help with adding dakuon and yōon support.
