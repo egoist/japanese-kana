@@ -1,8 +1,6 @@
 import gujuon from '../data/gujuon.json'
 
-export {
-  gujuon
-}
+export { gujuon }
 
 /**
  * Get line by first Romaji of each line
@@ -87,4 +85,3 @@ export function getHiraganaByRomaji(romaji) {
 export function getKatakanaByRomaji(romaji) {
   return getKanaByRomaji(romaji)[1]
 }
-
