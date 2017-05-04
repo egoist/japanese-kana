@@ -22,6 +22,11 @@
   "jest": {
     "testEnvironment": "node"
   },
+  "keywords": [
+    "japanese",
+    "katakana",
+    "hiragana"
+  ],
   "babel": {
     "env": {
       "test": {

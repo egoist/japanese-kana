@@ -53,7 +53,7 @@ export function getRomajiByKana(kana) {
 /**
  * Get Kana By Romaji
  * @param {string} romaji - Romaji
- * @return {Array<Hirakana, Katakana>} Kana
+ * @return {Array<Hiragana, Katakana>} Kana
  * @example
  * kana.getKanaByRomaji('mo')
  * //=> return ["も", "モ"]
@@ -63,9 +63,9 @@ export function getKanaByRomaji(romaji) {
 }
 
 /**
- * Get Hirakana by Romaji
+ * Get Hiragana by Romaji
  * @param {string} romaji - Romaji
- * @return {string} Hirakana
+ * @return {string} Hiragana
  * @example
  * kana.getHiraganaByRomaji('fu')
  * //=> return 'ふ'

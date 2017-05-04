@@ -8,7 +8,7 @@
 yarn add japanese-kana
 ```
 
-CDN: https://unpkg.com/japanese-kana/dist/
+CDN: <https://unpkg.com/japanese-kana/dist/>
 
 ## Usage
 
@@ -84,11 +84,11 @@ kana.getKanaByRomaji('mo')
 //=> return ["も", "モ"]
 ```
 
-Returns **[Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)&lt;Hirakana, Katakana>** Kana
+Returns **[Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)&lt;Hiragana, Katakana>** Kana
 
 ### getHiraganaByRomaji
 
-Get Hirakana by Romaji
+Get Hiragana by Romaji
 
 **Parameters**
 
@@ -101,7 +101,7 @@ kana.getHiraganaByRomaji('fu')
 //=> return 'ふ'
 ```
 
-Returns **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** Hirakana
+Returns **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** Hiragana
 
 ### getKatakanaByRomaji
 
